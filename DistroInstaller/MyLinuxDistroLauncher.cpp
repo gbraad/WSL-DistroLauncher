@@ -229,7 +229,7 @@ HRESULT MyLinuxDistroLauncher::_AddUserToGroups(const wstring& userName, const w
 // - An HRESULT with the failure code, or S_OK if it succeeded.
 HRESULT MyLinuxDistroLauncher::_AddUser(const wstring& userName)
 {
-    wstring commandLine = L"/usr/sbin/adduser --quiet --force-badname --disabled-password --gecos '' ";
+    wstring commandLine = L"/usr/sbin/adduser ";
     commandLine += userName;
 
     DWORD returnValue = 0;
