@@ -6,13 +6,13 @@
          xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10"
          xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
          IgnorableNamespaces="uap uap2 uap3 rescap desktop">
-  <Identity Name="DistroName.1.0"
+  <Identity Name="Fedora.25"
             Version="1.0.0.0"
-            Publisher="CN=DistroOwner"
+            Publisher="CN=FedoraProject"
             ProcessorArchitecture="x64" />
   <Properties>
-    <DisplayName>My Linux Distro</DisplayName>
-    <PublisherDisplayName>DistroOwner</PublisherDisplayName>
+    <DisplayName>Fedora</DisplayName>
+    <PublisherDisplayName>The Fedora Project</PublisherDisplayName>
     <Logo>images/icon.png</Logo>
   </Properties>
   <Resources>
@@ -26,17 +26,17 @@
   </Capabilities>
 
   <Applications>
-    <Application Id="mydistro" Executable="mydistro.exe" EntryPoint="Windows.FullTrustApplication">
-      <uap:VisualElements DisplayName="My Linux Distro"
-                          Description="My Own Distro Launcher"
-                          BackgroundColor="#464646"
+    <Application Id="fedora" Executable="fedora.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="Fedora"
+                          Description="Fedora"
+                          BackgroundColor="#3C6EB4"
                           Square150x150Logo="images/icon.png"
                           Square44x44Logo="images/icon.png"
       />
       <Extensions>
-        <uap3:Extension Category="windows.appExecutionAlias" Executable="mydistro.exe" EntryPoint="Windows.FullTrustApplication">
+        <uap3:Extension Category="windows.appExecutionAlias" Executable="fedora.exe" EntryPoint="Windows.FullTrustApplication">
           <uap3:AppExecutionAlias>
-            <desktop:ExecutionAlias Alias="mydistro.exe" />
+            <desktop:ExecutionAlias Alias="fedora.exe" />
           </uap3:AppExecutionAlias>
         </uap3:Extension>
       </Extensions>

@@ -6,8 +6,8 @@
 "images\icon.png" "images\icon.png"
 "images\icon.ico" "images\icon.ico"
 
-"x64\Release\mydistro.exe" "mydistro.exe"
-"x64\Release\mydistro.pdb" "mydistro.pdb"
+"x64\Release\fedora.exe" "fedora.exe"
+"x64\Release\fedora.pdb" "fedora.pdb"
 
 "install.tar.gz" "install.tar.gz"
 

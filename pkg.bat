@@ -4,8 +4,8 @@
 
 call build clean rel
 
-set _OWNER=DistroOwner
-set _AppxName=MyDistro
+set _OWNER=FedoraProject
+set _AppxName=Fedora
 set _FilemapName=filemap.txt
 
 set _KITS=()
